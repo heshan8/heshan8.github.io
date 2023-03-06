@@ -1,0 +1,178 @@
+#main_container {
+    font-family: Calibri, sans-serif;
+    width: 1400px;
+    height: 1800px;
+    background-color: #f0f0f1;
+    margin: auto;
+    padding: 0;
+    /*box-shadow: 0 0 18px 0 grey;*/
+}
+
+#navbar {
+    width: auto;
+    margin: 0;
+    height: 70px;
+    text-align: right;
+    box-shadow: 0 0 18px 0 grey;
+
+}
+
+.navigation_container {
+    height: 70px;
+    width: 1400px;
+    text-align: center;
+    /*box-shadow: 0 0 18px 0 grey;*/
+}
+
+.navbar_logo {
+    float: left;
+    box-shadow: 0 0 18px 0 grey;
+}
+
+.navigation_container ul {
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 18px;
+
+}
+
+.navigation_container li {
+    padding: 0;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.navigation_container li a {
+    color: #000000;
+    padding: 22px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 70px;
+    opacity: 0.8;
+    transition: 0.2s ease-in;
+}
+
+
+#get_started_link {
+    border: none;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgba(4, 169, 109, 0.81);
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+
+}
+
+
+.navigation_container li a:hover {
+    color: crimson;
+}
+
+#welcome_image img {
+    width: 100%;
+    opacity: 0.8;
+
+}
+
+#welcome_image {
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    color: forestgreen;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 77px;
+    font-family: "Arial Black", Calibri, sans-serif;
+    width: 500px;
+}
+
+
+h1 {
+    margin: 25px 0 0 25px;
+    font-size: 55px;
+    color: #303031;
+}
+
+h2 {
+    margin: 0 0 0 25px;
+}
+
+p {
+    margin: 25px 0 0 25px;
+    font-size: 22px;
+    color: #303031;
+    /*width: 500px;*/
+}
+
+#about_us_1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #f2f2f2;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6px;
+    min-height: 100%;
+}
+
+
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 grey;
+}
+
+/* left and right padding inside container */
+.container {
+    padding: 0 16px 16px 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.row {
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* make the footer stick to bottom of page */
+.footer {
+    width: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
